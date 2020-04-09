@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.g50.primary_wallpaper.detail_contents_2">
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/detailimageview2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:id="@+id/btndownload"
+        app:cub_icon="@drawable/download"
+        app:cub_color="#FFFFFFFF"
+        android:layout_alignBottom="@+id/btnsetwallpaper"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
+
+
+
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:id="@+id/btnshare"
+        app:cub_icon="@drawable/share"
+        app:cub_color="#FFFFFFFF"
+        android:layout_alignBaseline="@+id/btnsetwallpaper"
+        android:layout_alignBottom="@+id/btnsetwallpaper"
+        android:layout_toRightOf="@+id/btndownload"
+        android:layout_toEndOf="@+id/btndownload" />
+
+
+
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:id="@+id/btnsetwallpaper"
+        app:cub_icon="@drawable/set"
+        app:cub_color="#FFFFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/btndownload"
+        android:layout_toStartOf="@+id/btndownload"
+        android:layout_marginBottom="10dp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
